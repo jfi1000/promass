@@ -75,8 +75,8 @@ A continuación, se presentan algunas capturas de pantalla del proyecto:
 
 # Agradecimiento por la oportunidad de postulación:
 
-Quiero expresar mi sincero agradecimiento por brindarme la oportunidad de postularme para el puesto de [fullstack] en [Grupo Promass]. Ha sido un honor y un placer participar en el proceso de selección.
+Quiero expresar mi sincero agradecimiento por brindarme la oportunidad de postularme para el puesto de fullstack en Grupo Promass. Ha sido un honor y un placer participar en el proceso de selección.
 
 Estoy emocionado por la posibilidad de contribuir con mis habilidades y experiencia al equipo. Aprecio la oportunidad de compartir mi pasión por el desarrollo web y estoy seguro de que mi compromiso y entusiasmo serían activos valiosos para su equipo.
 **Atentamente**
-**José Luis Farías Izaguirre**
+**José Luis Farías**
