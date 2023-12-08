@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\EntradaViewController;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,4 +26,10 @@ Route::middleware([
     Route::get('/dashboard', function () {
         return view('dashboard');
     })->name('dashboard');
+    Route::post('/entradas', [EntradaViewController::class, 'store']);
+    Route::get('/entradas', [EntradaViewController::class, 'index']);
+    Route::get('/entradas/create', [EntradaViewController::class, 'create']); 
+    Route::get('/entradas/buscar-entradas', [EntradaViewController::class, 'buscar']);
+    // Route::get('/entradas/{id}', [EntradaViewController::class, 'detalle']);
+
 });
