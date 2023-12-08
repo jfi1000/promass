@@ -49,7 +49,7 @@ Asegúrate de tener instalados los siguientes requisitos antes de comenzar:
 
 # **Instala las Dependencias de Node.js:**
 
-StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
+`npm install`
 
 ## **Copia el Archivo de Configuración:**
 
