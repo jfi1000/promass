@@ -40,13 +40,12 @@ Asegúrate de tener instalados los siguientes requisitos antes de comenzar:
 1.  **Clona el Repositorio:**
 
 ```bash
-    git clone https://github.com/jfi1000/promas`
+    git clone https://github.com/jfi1000/promass`
     cd promass
 ```
 # Instala las Dependencias de PHP:
 
     composer install
-
 
 # **Instala las Dependencias de Node.js:**
 
