@@ -35,7 +35,6 @@ class EntradaApiController extends Controller
     {
         $query = $request->input('q');
     
-        // Realizar lógica de búsqueda en la base de datos según los criterios
         $entradas = Entrada::where('titulo', 'like', "%{$query}%")
             ->orWhere('autor', 'like', "%{$query}%")
             ->orWhere('contenido', 'like', "%{$query}%")

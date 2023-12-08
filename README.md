@@ -23,6 +23,15 @@ Asegúrate de tener instalados los siguientes requisitos antes de comenzar:
 - Laravel v10.35.0
 
   
+## Algunas Herramientas Utilizadas
+
+- **Laravel 10:** [Laravel](https://laravel.com/) es un framework PHP elegante y poderoso que facilita el desarrollo de aplicaciones web modernas.
+
+- **Tailwind CSS:** [Tailwind CSS](https://tailwindcss.com/) es un framework de utilidades CSS de bajo nivel que facilita la construcción de interfaces de usuario. En este proyecto, Tailwind CSS ha sido incorporado directamente en las vistas Blade para un desarrollo más rápido y sencillo.
+
+- **Jetstream con Livewire:** [Jetstream](https://jetstream.laravel.com/) es un kit de inicio para Laravel que proporciona funciones de autenticación, gestión de equipos, y más. Se utiliza en conjunto con Livewire, un poderoso framework de renderización de componentes de Laravel, para crear un sistema de login robusto y dinámico.
+
+- **Git para Control de Versiones:** Este proyecto utiliza Git para el control de versiones. La gestión del código fuente.
 
 ## Instalación
 
