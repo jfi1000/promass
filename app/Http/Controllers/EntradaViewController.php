@@ -46,7 +46,6 @@ class EntradaViewController  extends Controller
             'contenido' => 'required|string',
         ]);
     
-        // Crea la entrada
         Entrada::create([
             'titulo' => $request->input('titulo'),
             'autor' => $request->input('autor'),

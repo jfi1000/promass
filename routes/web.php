@@ -24,12 +24,13 @@ Route::middleware([
     'verified',
 ])->group(function () {
     Route::get('/dashboard', function () {
-        return view('dashboard');
+        // return view('dashboard');
+        return redirect('/entradas/buscar-entradas');
     })->name('dashboard');
     Route::post('/entradas', [EntradaViewController::class, 'store']);
     Route::get('/entradas', [EntradaViewController::class, 'index']);
     Route::get('/entradas/create', [EntradaViewController::class, 'create']); 
     Route::get('/entradas/buscar-entradas', [EntradaViewController::class, 'buscar']);
-    // Route::get('/entradas/{id}', [EntradaViewController::class, 'detalle']);
+    Route::get('/entradas/{id}', [EntradaViewController::class, 'detalle']);
 
 });

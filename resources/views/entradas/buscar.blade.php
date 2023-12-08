@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crear Entrada</title>
     <!-- Asegúrate de incluir los estilos de Tailwind CSS en tu proyecto -->
+    
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body class="bg-gray-100 p-8">
@@ -35,6 +36,11 @@
         @empty
             <p>No se encontraron resultados.</p>
         @endforelse
+
+        @auth
+            <a href="{{ url('/entradas/create') }}" class="btn btn-primary">Crear Entrada</a>
+        @endauth
+
     </div>
     </body>
 </html>
